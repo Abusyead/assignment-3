@@ -39,3 +39,54 @@
         name:"Cypher AI"
     }
 ]
+
+export const Dashdata = [
+    {
+        img:"img/dashimg-1.png",
+        btnImg:"img/btnImg.svg",
+        btnText:"Blizzard",
+        title:"Whitechapel Rd.",
+        para:"Tulare County,  Los Angles, CA 23415",
+        taka:"$1,456,654.00"
+    },
+    {
+        img:"img/dashimg-2.png",
+        btnImg:"img/btnImg.svg",
+        btnText:"Blizzard",
+        title:"Whitechapel Rd.",
+        para:"Tulare County,  Los Angles, CA 23415",
+        taka:"$1,456,654.00"
+    },
+    {
+        img:"img/dashimg-3.png",
+        btnImg:"img/btnImg.svg",
+        btnText:"Blizzard",
+        title:"Whitechapel Rd.",
+        para:"Tulare County,  Los Angles, CA 23415",
+        taka:"$1,456,654.00"
+    },
+    {
+        img:"img/dashimg-4.png",
+        btnImg:"img/btnImg.svg",
+        btnText:"Blizzard",
+        title:"Whitechapel Rd.",
+        para:"Tulare County,  Los Angles, CA 23415",
+        taka:"$1,456,654.00"
+    },
+    {
+        img:"img/dashimg-5.png",
+        btnImg:"img/btnImg.svg",
+        btnText:"Blizzard",
+        title:"Whitechapel Rd.",
+        para:"Tulare County,  Los Angles, CA 23415",
+        taka:"$1,456,654.00"
+    },
+    {
+        img:"img/dashimg-6.png",
+        btnImg:"img/btnImg.svg",
+        btnText:"Blizzard",
+        title:"Whitechapel Rd.",
+        para:"Tulare County,  Los Angles, CA 23415",
+        taka:"$1,456,654.00"
+    }
+]

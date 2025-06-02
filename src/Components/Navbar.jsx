@@ -26,7 +26,7 @@ export const Navbar = () => {
                                 </li>
                             ))}
                         </ul>
-                        <div className="w-[574px] rounded-[50px] h-1 flex justify-center gap-[30px] items-center absolute bottom-[-22px] z-50">
+                        <div className="w-[574px] rounded-[50px] h-1 flex justify-center gap-[30px] items-center absolute bottom-[-25px] z-50">
                             {[...Array(6).keys()].map((el) => (
                                 <div key={el} className={cn('w-[110px] h-[3px] rounded-[50px] bg-transparent', Active === el && "bg-[#09090B]")}></div>
                             ))}
@@ -48,7 +48,7 @@ export const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="absolute left-0 bg-[#E4E4E7] top-18 right-0 h-[3px] w-full"></div>
+                <div className="absolute left-0 bg-[#E4E4E7] top-16 right-0 h-[3px] w-full"></div>
 
                 <div className="mt-10 flex justify-between items-center">
                     <div>
@@ -56,7 +56,7 @@ export const Navbar = () => {
                         <h2 className="text-[26px] font-bold text-[#09090B]">{activeSearch?.navSearch?.navNam ?? ""}</h2>
                     </div>
 
-                    <div className='flex justify-center items-center gap-[14px] '>
+                    <div className='flex justify-center items-center gap-[14px]'>
                         {activeSearch?.navSearch?.search && (
                             <div className='flex items-center bg-white justify-start gap-5 rounded-[6px] py-4 px-2.5'>
                                 <img src="img/search.svg" alt="Search Icon" />

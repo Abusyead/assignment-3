@@ -4,7 +4,9 @@
 
 @theme{
     --color-primary:#E4E4E780;
+    --color-bla:#09090B;
     --color-orange:#F26922;
+    --color-accent:#71717A;
     --color-gray:#A1A1AA;
     --font-onest: "Onest", sans-serif;
 }
