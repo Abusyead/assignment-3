@@ -90,3 +90,10 @@ export const Dashdata = [
         taka:"$1,456,654.00"
     }
 ]
+
+
+export const mesDataimg = [
+    {img:"img/meCamara.png"},
+    {img:"img/mePhoto.png"},
+    {img:"img/mesave.png"}
+]
