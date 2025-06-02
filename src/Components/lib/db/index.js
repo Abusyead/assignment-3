@@ -15,11 +15,11 @@
         path:"/Incidents",
         name:"Incidents",
             navSearch:{
-            title:"come one",
-            navNam:"Hello", 
+            title:"Home - Incidents",
+            navNam:"Incidents", 
             search:"Search incident",
             sort:"Sort By: Date mo",
-            btn:"go to mon"
+            btn:"+ New Incident"
         }
     },
     {
