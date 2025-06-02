@@ -1,26 +1,41 @@
-export const navData = [
+ export const navData = [
+
     {
-        nav:"Dashboard",
-        link:"#"
+        path:"/",
+        name:"Dashboard",
+        navSearch:{
+            title:"Welcome back",
+            navNam:"Dashboard",
+            search:"Search incident",
+            sort:"Sort By: Date modified",
+            btn:"Cypher AI"
+        }
     },
     {
-        nav:"Incidents",
-        link:"#"
+        path:"/Incidents",
+        name:"Incidents",
+            navSearch:{
+            title:"come one",
+            navNam:"Hello", 
+            search:"Search incident",
+            sort:"Sort By: Date mo",
+            btn:"go to mon"
+        }
     },
     {
-        nav:"Locations",
-        link:"#"
+        path:"/Locations",
+        name:"Locations"
     },
     {
-        nav:"Activities",
-        link:"#"
+        path:"/Activities",
+        name:"Activities"
     },
     {
-        nav:"Documents",
-        link:"#"
+        path:"/Documents",
+        name:"Documents"
     },
     {
-        nav:"Cypher AI",
-        link:"#"
+        path:"/Cypher AI",
+        name:"Cypher AI"
     }
-]  
+]
