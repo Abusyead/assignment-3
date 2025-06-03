@@ -32,7 +32,7 @@ function Dashboard() {
           
       </div>
     </div>
-      <Container className="max-w-[1300px] h-[110vh] relative">
+      <Container className="max-w-[1300px] h-[90vh] relative">
         <Heroarea />
         <div className="absolute bottom-25 right-0 flex flex-col gap-5 items-end">
           {ismessage && <DashMessage />}

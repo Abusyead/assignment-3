@@ -3,24 +3,10 @@
     {
         path:"/",
         name:"Dashboard",
-        navSearch:{
-            title:"Welcome back",
-            navNam:"Dashboard",
-            search:"Search incident",
-            sort:"Sort By: Date modified",
-            btn:"Cypher AI"
-        }
     },
     {
         path:"/Incidents",
         name:"Incidents",
-            navSearch:{
-            title:"Home - Incidents",
-            navNam:"Incidents", 
-            search:"Search incident",
-            sort:"Sort By: Date mo",
-            btn:"+ New Incident"
-        }
     },
     {
         path:"/Locations",
@@ -96,4 +82,25 @@ export const mesDataimg = [
     {img:"img/meCamara.png"},
     {img:"img/mePhoto.png"},
     {img:"img/mesave.png"}
+]
+
+export const startData = [
+    {
+        img:"../src/assets/star1.png",
+        h2:"What type of incident?",
+        p:"Choose the category that best describes the incident."
+    },
+    
+    {
+        img:"../src/assets/star2.png",
+        h2:"Tell us about the incident?",
+        p:"Let’s connect the dots and see where to start."
+    },
+    
+    {
+        img:"../src/assets/star3.png",
+        h2:"Where did the incident occur?",
+        p:"Lorem ipsum dolar sit general sac mascho werho"
+    }
+    
 ]

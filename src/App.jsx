@@ -14,9 +14,11 @@ function App() {
             <Routes>
               <Route path='/' element={<Dashboard />} />
               <Route path='/Incidents' element={<Incidents />} />
-              <Route path='/NewIncident' element={<NewIncident />} />
+              <Route path="/Incidents/NewIncident" element={<NewIncident />} />
+
             </Routes>
-        </BrowserRouter>
+        </BrowserRouter> 
+        {/* <NewIncident /> */}
     </>
   )
 }

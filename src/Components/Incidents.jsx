@@ -7,7 +7,7 @@ import { Navdis } from './Common/navdis';
 import { Search } from './Common/Search';
 import WhiteBtn from './Common/WhiteBtn';
 import { Button } from './Common/Button';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom'; 
 
 function Incidents() {
   return (
@@ -23,7 +23,7 @@ function Incidents() {
                 <div className='flex justify-center items-center gap-[14px]'>
                   <Search></Search>
                   <WhiteBtn>Sort By: Date modified</WhiteBtn>
-                   <NavLink to="NewIncident"><Button className="flex items-center justify-center gap-1 py-[10px]"><span className='text-[20px]'>+</span> New Incident</Button></NavLink>
+                   <Link to="NewIncident"><Button className="flex items-center justify-center gap-1 py-[10px]"><span className='text-[20px]'>+</span> New Incident</Button></Link>
 
                 </div>
               </div>
