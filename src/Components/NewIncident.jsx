@@ -2,6 +2,7 @@ import React from 'react'
 import { Container } from './Common/Container' 
 import { startData } from './lib/db'
 import { Button } from './Common/Button'
+import { Link } from 'react-router-dom'
 
 function NewIncident() {
   return (
@@ -31,7 +32,10 @@ function NewIncident() {
                         </div>
                     ))}
                 </div>
-                <Button className="font-normal mt-25 px-8">Get started</Button>  
+                <Link to="Describes">
+                    <Button className="font-normal mt-25 px-8">Get started</Button> 
+                </Link>
+                 
             </div>
         </Container>
     </section>
