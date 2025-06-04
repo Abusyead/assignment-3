@@ -5,6 +5,7 @@ import Dashboard from './Components/Dashboard'
 import Incidents from './Components/Incidents'
 import NewIncident from './Components/NewIncident'
 import Incidenthead from './Components/Common/incidenthead'
+import { ImproveBar } from './Components/Common/ImproveBar'
 
 function App() { 
 
@@ -20,6 +21,7 @@ function App() {
             </Routes>
         </BrowserRouter>
         <Incidenthead />
+        <ImproveBar />
 
         
 
