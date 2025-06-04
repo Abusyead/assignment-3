@@ -4,6 +4,7 @@ import { Navbar } from './Components/Navbar'
 import Dashboard from './Components/Dashboard'
 import Incidents from './Components/Incidents'
 import NewIncident from './Components/NewIncident'
+import Incidenthead from './Components/Common/incidenthead'
 
 function App() { 
 
@@ -17,8 +18,12 @@ function App() {
               <Route path="/Incidents/NewIncident" element={<NewIncident />} />
 
             </Routes>
-        </BrowserRouter> 
-        {/* <NewIncident /> */}
+        </BrowserRouter>
+        <Incidenthead />
+
+        
+
+
     </>
   )
 }
