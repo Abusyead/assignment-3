@@ -6,6 +6,8 @@ import Incidents from './Components/Incidents'
 import NewIncident from './Components/NewIncident' 
 import Describes from './Components/Describes'
 import TitleType from './Components/TitleType'
+import {IncidentMap} from "./Components/IncidentMap"
+
 function App() { 
   return ( 
   <> 
@@ -16,6 +18,7 @@ function App() {
             <Route path='/Incidents/NewIncident' element={<NewIncident />} />
             <Route path='/Incidents/NewIncident/Describes' element={<Describes />} /> 
             <Route path='/Incidents/NewIncident/Describes/TitleType' element={<TitleType />} /> 
+            <Route path='/Incidents/NewIncident/Describes/TitleType/IncidentMap' element={<IncidentMap />} /> 
       </Routes> 
     </BrowserRouter> 
      
