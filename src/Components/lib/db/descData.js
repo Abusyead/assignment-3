@@ -1,0 +1,74 @@
+export const descData = [
+    {
+        img:"../src/assets/star3.png",
+        p:"Avalanche"
+    },
+    {
+        img:"describes2.svg",
+        p:"Biological"
+    },
+    {
+        img:"describes3.svg",
+        p:"Blizzard"
+    },
+    {
+        img:"describes4.svg",
+        p:"Cold/Freezing"
+    },
+    {
+        img:"describes5.svg",
+        p:"Drought"
+    },
+    {
+        img:"describes6.svg",
+        p:"Earthquake"
+    },
+    {
+        img:"describes7.svg",
+        p:"Flooding"
+    },
+    {
+        img:"describes8.svg",
+        p:"Heat Wave"
+    },
+    {
+        img:"describes9.svg",
+        p:"Hail"
+    },
+    {
+        img:"describes10.svg",
+        p:"Lightning"
+    },
+    {
+        img:"describes11.svg",
+        p:"Man Made"
+    },
+    {
+        img:"describes12.svg",
+        p:"Mudslide"
+    },
+    {
+        img:"describes13.svg",
+        p:"Severe Storm"
+    },
+    {
+        img:"describes14.svg",
+        p:"Strong Wind"
+    },
+    {
+        img:"describes15.svg",
+        p:"Tornado"
+    },
+    {
+        img:"describes16.svg",
+        p:"Tsunami"
+    },
+    {
+        img:"describes17.svg",
+        p:"Volcanic Eruption"
+    },
+    {
+        img:"describes18.svg",
+        p:"Wildfire"
+    },
+]

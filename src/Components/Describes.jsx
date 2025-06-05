@@ -4,11 +4,13 @@ import Incidenthead from './Common/incidenthead'
 import { ImproveBar } from './Common/ImproveBar'
 import WhiteBtn from './Common/WhiteBtn'
 import { Button } from './Common/Button'
+import { DescribesCard } from './Common/DescribesCard'
 
 function Describes() {
   return (
-    <section className='bg-[#E4E4E780]'>
-        <Container className="py-7">
+    <section>
+      <div className='bg-[#E4E4E780]'>
+         <Container className="py-7">
             <div className='flex items-center justify-between'>
                 <Incidenthead />
                 <div className='flex items-center justify-center bg-red-300'>
@@ -19,14 +21,10 @@ function Describes() {
                     <WhiteBtn className="px-7 py-2 font-normal">Back</WhiteBtn>
                     <Button className="px-5 py-2 font-normal">Next step</Button>
                 </div>
-            </div>
-            <div className='max-w-[753px] mx-auto'>
-                  <h1 className='text-[24px] font-bold text-[#09090B]'>Which of these best describes the incident?</h1>
-                  <div>
-                    <div></div>
-                  </div>
-            </div>
-        </Container>
+            </div>         
+         </Container>   
+      </div>
+      <DescribesCard></DescribesCard>
     </section>
   )
 }
