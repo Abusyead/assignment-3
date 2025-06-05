@@ -104,3 +104,92 @@ export const startData = [
     }
 ]
 
+export const LocationData = [
+    {
+        img:"location.svg",
+        p:"Location",
+        h2:"Tulare County,  Los Angles, CA 23415"
+    },
+    {
+        img:"youtube.svg",
+        p:"Approx. Cost:",
+        h2:"$60,607,456.00"
+    }
+]
+
+export const locaCardData = [
+    {
+        img:"locationCard.png",
+        btnImg:"img/btnImg.svg",
+        btnText:"Blizzard",
+        title:"Whitechapel Rd.",
+        para:"Tulare County,  Los Angles, CA 23415",
+        taka:"$1,456,654.00"
+    },
+    {
+        img:"locationCard.png",
+        btnImg:"img/btnImg.svg",
+        btnText:"Blizzard",
+        title:"Whitechapel Rd.",
+        para:"Tulare County,  Los Angles, CA 23415",
+        taka:"$1,456,654.00"
+    },
+    {
+        img:"locationCard.png",
+        btnImg:"img/btnImg.svg",
+        btnText:"Blizzard",
+        title:"Whitechapel Rd.",
+        para:"Tulare County,  Los Angles, CA 23415",
+        taka:"$1,456,654.00"
+    },
+    {
+        img:"locationCard.png",
+        btnImg:"img/btnImg.svg",
+        btnText:"Blizzard",
+        title:"Whitechapel Rd.",
+        para:"Tulare County,  Los Angles, CA 23415",
+        taka:"$1,456,654.00"
+    }
+]
+
+export const LocationActivitiesData = [
+    {
+        img:"locationCard.png",
+        h2:"Activity name",
+        p:"Location name 16.12212, -122.1424",
+        h1:"$1,456,654.00"
+    },
+    {
+        img:"locationCard.png",
+        h2:"Activity name",
+        p:"Location name 16.12212, -122.1424",
+        h1:"$1,456,654.00"
+    },
+    {
+        img:"locationCard.png",
+        h2:"Activity name",
+        p:"Location name 16.12212, -122.1424",
+        h1:"$1,456,654.00"
+    }
+]
+
+export const LocationDocumentsData = [
+    {
+        img:"locationCard.png",
+        h2:"Document name",
+        p:"Location name 16.12212, -122.1424",
+        h1:"$1,456,654.00"
+    },
+    {
+        img:"locationCard.png",
+        h2:"Document name",
+        p:"Location name 16.12212, -122.1424",
+        h1:"$1,456,654.00"
+    },
+    {
+        img:"locationCard.png",
+        h2:"Documents name",
+        p:"Location name 16.12212, -122.1424",
+        h1:"$1,456,654.00"
+    }
+]
