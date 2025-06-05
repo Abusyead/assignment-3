@@ -4,6 +4,7 @@ import Incidenthead from './Common/incidenthead'
 import { ImproveBar } from './Common/ImproveBar'
 import WhiteBtn from './Common/WhiteBtn'
 import { Button } from './Common/Button'
+import { Link } from 'react-router-dom'
 import { DescribesCard } from './Common/DescribesCard'
 
 function Describes() {
@@ -19,12 +20,15 @@ function Describes() {
                 
                 <div className='flex items-center justify-center gap-2'>
                     <WhiteBtn className="px-7 py-2 font-normal">Back</WhiteBtn>
-                    <Button className="px-5 py-2 font-normal">Next step</Button>
+                    <Link  to="TitleType">
+                      <Button className="px-5 py-2 font-normal">Next step</Button>
+                    </Link>
+                    
                 </div>
             </div>         
-         </Container>   
+         </Container>
       </div>
-      <DescribesCard></DescribesCard>
+      <DescribesCard />
     </section>
   )
 }

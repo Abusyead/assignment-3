@@ -5,7 +5,7 @@ import Dashboard from './Components/Dashboard'
 import Incidents from './Components/Incidents' 
 import NewIncident from './Components/NewIncident' 
 import Describes from './Components/Describes'
-import { DescribesCard } from './Components/Common/DescribesCard'
+import TitleType from './Components/TitleType'
 function App() { 
   return ( 
   <> 
@@ -15,6 +15,7 @@ function App() {
             <Route path='/Incidents' element={<Incidents />} />
             <Route path='/Incidents/NewIncident' element={<NewIncident />} />
             <Route path='/Incidents/NewIncident/Describes' element={<Describes />} /> 
+            <Route path='/Incidents/NewIncident/Describes/TitleType' element={<TitleType />} /> 
       </Routes> 
     </BrowserRouter> 
      
