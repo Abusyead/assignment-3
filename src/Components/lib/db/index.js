@@ -164,12 +164,6 @@ export const LocationActivitiesData = [
         h2:"Activity name",
         p:"Location name 16.12212, -122.1424",
         h1:"$1,456,654.00"
-    },
-    {
-        img:"locationCard.png",
-        h2:"Activity name",
-        p:"Location name 16.12212, -122.1424",
-        h1:"$1,456,654.00"
     }
 ]
 
@@ -185,11 +179,5 @@ export const LocationDocumentsData = [
         h2:"Document name",
         p:"Location name 16.12212, -122.1424",
         h1:"$1,456,654.00"
-    },
-    {
-        img:"locationCard.png",
-        h2:"Documents name",
-        p:"Location name 16.12212, -122.1424",
-        h1:"$1,456,654.00"
-    }
+    } 
 ]
