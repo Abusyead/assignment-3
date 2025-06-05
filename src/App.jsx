@@ -7,6 +7,7 @@ import NewIncident from './Components/NewIncident'
 import Describes from './Components/Describes'
 import TitleType from './Components/TitleType'
 import {IncidentMap} from "./Components/IncidentMap"
+import Locations from './Components/Locations'
 
 function App() { 
   return ( 
@@ -15,6 +16,7 @@ function App() {
       <Routes> 
             <Route path='/' element={<Dashboard />} /> 
             <Route path='/Incidents' element={<Incidents />} />
+            <Route path='/Locations' element={<Locations />} />
             <Route path='/Incidents/NewIncident' element={<NewIncident />} />
             <Route path='/Incidents/NewIncident/Describes' element={<Describes />} /> 
             <Route path='/Incidents/NewIncident/Describes/TitleType' element={<TitleType />} /> 
